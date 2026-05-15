@@ -1,0 +1,14 @@
+{
+	"slug": "mara-vale",
+	"name": "Mara Vale",
+	"documents": {
+		"profile": "profile.md",
+		"voice": "voice.md",
+		"relationships": "relationships.md",
+		"development": "development.jsonl",
+		"references": "references.jsonl",
+		"notes": "notes.md"
+	},
+	"tags": ["protagonist", "reluctant-medium", "coastal-fantasy"],
+	"status": "example"
+}

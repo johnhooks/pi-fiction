@@ -1,0 +1,54 @@
+{
+    "name": "pi-fiction",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "packageManager": "pnpm@11.2.2",
+    "description": "Pi fiction-writing extension, awaiting rebuilt workflow assets.",
+    "license": "GPL-2.0-or-later",
+    "exports": {
+        ".": {
+            "types": "./dist/src/index.d.ts",
+            "default": "./dist/src/index.js"
+        }
+    },
+    "files": [
+        "dist",
+        "extensions",
+        "skills",
+        "README.md"
+    ],
+    "pi": {
+        "extensions": [
+            "./extensions"
+        ],
+        "skills": [
+            "./skills"
+        ]
+    },
+    "engines": {
+        "node": ">=24"
+    },
+    "scripts": {
+        "build": "tsgo -p tsconfig.build.json",
+        "test": "vitest run",
+        "typecheck": "tsgo --noEmit",
+        "lint": "biome check . && tsgo --noEmit",
+        "lint:fix": "biome check --write .",
+        "lint:ts": "biome check .",
+        "lint:ts:fix": "biome check --write ."
+    },
+    "peerDependencies": {
+        "@earendil-works/pi-ai": "*",
+        "@earendil-works/pi-coding-agent": "*",
+        "@earendil-works/pi-tui": "*",
+        "typebox": "^1.1.38"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.4.14",
+        "@types/node": "^25.6.2",
+        "@typescript/native-preview": "7.0.0-dev.20260120.1",
+        "typebox": "^1.1.38",
+        "vitest": "^4.1.5"
+    }
+}
