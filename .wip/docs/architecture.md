@@ -18,9 +18,10 @@ Project-internal resources help agents work on `pi-fiction` itself:
 
 ```text
 .pi/prompts/        # local prompt shortcuts for building this framework
-.agents/skills/     # local skills for planning, review, commits, and creative process work
+.agents/skills/     # local skills for ideas, review, commits, and creative process work
 .wip/docs/          # unfinished architecture and design notes
-.plans/             # optional lightweight idea/task planning space
+.wip/ideas/         # framework ideas before they become tasks
+.wip/tasks/         # accepted work with concrete deliverables
 ```
 
 Package resources are shipped to story projects that use the framework:
@@ -58,14 +59,15 @@ The first internal tools should support building the framework without importing
 Possible local skills:
 
 - `fiction-lab`: explore raw framework ideas, generate options, name tensions, and find the creative heart before implementation.
-- `framework-plan`: turn a promising idea into a small plan focused on what creative act it enables.
+- `framework-ideas`: turn a promising concept into a framework idea focused on what creative act it enables.
 - `framework-review`: review prompts, skills, extension behavior, or templates for creative usefulness as well as technical correctness.
 - `framework-commit`: prepare clean commits after reviewing changes and running relevant checks.
 
 Possible local prompts:
 
 - `/lab`: open creative exploration around a framework idea.
-- `/plan`: shape an idea into an implementable slice.
+- `/ideas`: shape a concept into a framework idea.
+- `/plan`: create an implementation plan for an accepted task.
 - `/review`: review current changes or a specific asset.
 - `/commit`: prepare a commit only when explicitly asked.
 
@@ -91,13 +93,13 @@ Avoid:
 - turning every creative choice into a checklist
 - forcing linear workflows when exploration is needed
 - hiding creative judgment behind process language
-- shipping internal planning aids as user-facing story tools
+- shipping internal workshop aids as user-facing story tools
 - preserving old ideas merely because they already exist
 
 ## Open Questions
 
 - Should internal skills live in `.agents/skills/` or `.pi/skills/`?
-- Should planning artifacts use `.plans/`, `.wip/`, or a more workshop-like name?
+- What should be the threshold for promoting an idea into a task?
 - What belongs in extension code versus prompts and skills?
 - Do story projects need starter templates, or should setup be interactive first?
 - What is the smallest useful first package resource we can ship?

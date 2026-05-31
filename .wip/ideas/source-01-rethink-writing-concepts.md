@@ -219,7 +219,7 @@ Likely Pi-native destinations:
 
 - extension commands
 - custom tools
-- future plans in `.wip/plans/`
+- future ideas in `.wip/ideas/`
 
 ## Requirements
 

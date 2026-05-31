@@ -15,7 +15,7 @@ The old `../writing` system understood that characters need motivations, conflic
 
 A writer and AI collaborator need character material that is easy to discover, easy to write from, and easy to update as the story changes. Stable identity, voice texture, relationship dynamics, and continuity history should not all be forced into the same Markdown document.
 
-This plan is a focused child of `source-01-rethink-writing-concepts`: it takes the character-development slice of the old writing concept inventory and reimagines it as the first base component for the new Pi extension.
+This idea is a focused child of `source-01-rethink-writing-concepts`: it takes the character-development slice of the old writing concept inventory and reimagines it as the first base component for the new Pi extension.
 
 ## Solution
 
@@ -124,16 +124,16 @@ A messy scratchpad for ideas that are not canon yet. This gives writers somewher
 - Avoid approval gates and exhaustive questionnaires. Character discovery should feel like putting a person under story pressure, not filling out a dossier.
 - The first user-facing package resources for this work will likely include a character-development skill and a prompt or command that can create or update this folder structure.
 
-## Relationship to the source inventory plan
+## Relationship to the source inventory idea
 
-`source-01-rethink-writing-concepts` tracks the full conceptual review of `../writing`. This plan is the first concrete extraction from that inventory.
+`source-01-rethink-writing-concepts` tracks the full conceptual review of `../writing`. This idea is the first concrete extraction from that inventory.
 
 The source inventory asks: what old concepts matter, and where should they go?
 
-This character plan answers for one area:
+This character idea answers for one area:
 
 - old character concepts go into a Pi-native character folder system
 - stable identity, voice, relationships, and continuity become separate artifacts
 - character development becomes an interactive discovery flow rather than a monolithic template
 
-When this plan progresses, it should feed findings back into the source inventory so the old character files can be marked as reimagined rather than merely reviewed.
+When this idea progresses, it should feed findings back into the source inventory so the old character files can be marked as reimagined rather than merely reviewed.
