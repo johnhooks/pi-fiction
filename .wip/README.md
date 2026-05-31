@@ -30,6 +30,7 @@ A framework idea can produce one or more tasks once its shape is clear. If the w
 - [graph-02-story-graphs-as-authoring-tool](ideas/graph-02-story-graphs-as-authoring-tool.md) - Frame story graphs as a broader authoring tool for linear and interactive fiction, not just CYOA.
 - [graph-03-director-narrator-workflow](ideas/graph-03-director-narrator-workflow.md) - Explore Director and Narrator as reusable authoring modes for control and story performance.
 - [graph-04-authoring-cockpit](ideas/graph-04-authoring-cockpit.md) - Design the Pi-side graph navigator that connects author movement, visual feedback, and precise agent edits.
+- [context-01-session-artifact-story-building](ideas/context-01-session-artifact-story-building.md) - Treat Pi session history as the first story-building artifact before durable file extraction.
 - [branching-01-public-design-arc](ideas/branching-01-public-design-arc.md) - Coordinate the blog, framework, Elsewhere, and follow-up writing arc.
 - [branching-02-visible-story-graph](ideas/branching-02-visible-story-graph.md) - Specialize visible story graphs for reader-facing branching fiction.
 - [branching-03-graph-authoring-workflow](ideas/branching-03-graph-authoring-workflow.md) - Turn graph exploration into a publishable branching fiction workflow.
